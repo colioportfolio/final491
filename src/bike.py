@@ -1,5 +1,5 @@
-from src.parts import Wheel
-from src.parts import Engine
+from parts import Wheel
+from parts import Engine
 class Bike:
     def __init__(self, shade, type):
         self.shade = shade

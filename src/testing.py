@@ -1,8 +1,8 @@
 import unittest
-from src.parts import Wheel
-from src.parts import Engine
-from src.fordPinto import Car
-from src.bike import Bike
+from parts import Wheel
+from parts import Engine
+from fordPinto import Car
+from bike import Bike
 
 
 class Test_Parts(unittest.TestCase):
@@ -89,7 +89,7 @@ class Test_bike(unittest.TestCase):
         test = Bike("RED", "BMX")
         testTwo = Bike("RED", "mountain")
         testThree = Bike("RED", "street")
-        if self.assertEqual(test.get_speed(), 20):
+        if self.assertEqual(test.get_speed(), 25):
             if self.assertEqual(testTwo.get_speed(), 8):
                 if self.assertEqual(testThree.get_speed(), 15):
                     return

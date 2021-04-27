@@ -1,5 +1,5 @@
-from src.parts import Wheel
-from src.parts import Engine
+from parts import Wheel
+from parts import Engine
 
 class Car:
     wheelAmount = 0

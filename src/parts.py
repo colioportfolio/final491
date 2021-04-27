@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABCMeta, abstractmethod
 
 
 class Wheel:
@@ -23,7 +23,7 @@ class Wheel:
         return count
 
 
-class Vehicle(ABC):
+class Vehicle(ABCMeta):
 
     @abstractmethod
     def __init__(self, vehicle, name):
