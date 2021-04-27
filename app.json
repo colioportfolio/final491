@@ -3,7 +3,7 @@
     "test": {
     "scripts":{
         "test-setup": "",
-        "test": "python3 tests/testing"
+        "test": "python3 tests/testing.py"
     }
     }
   }
