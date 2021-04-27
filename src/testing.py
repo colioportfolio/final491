@@ -1,8 +1,8 @@
 import unittest
-from src.parts import Wheel
-from src.parts import Engine
-from src.fordPinto import Car
-from src.bike import Bike
+from parts import Wheel
+from parts import Engine
+from fordPinto import Car
+from bike import Bike
 
 
 class Test_Parts(unittest.TestCase):
