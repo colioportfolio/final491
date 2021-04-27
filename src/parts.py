@@ -8,11 +8,18 @@ class Wheel:
     def __init__(self):
         self.wheelAmount = 0
 
-    def amount(x):
+    def amount(self, x):
+        print(x)
         if x in ["car"]:
             count = 4
-        else:
+            return count
+        if x in ["bike"]:
             count = 2
+            return count
+        else:
+            print("does not apply")
+            count = 0
+            return count
         return count
 
 
@@ -41,7 +48,7 @@ class Engine:
     def __init__(self):
         self.engine = 0
 
-    def does_vehicle_have_engine(x):
+    def does_vehicle_have_engine(self, x):
         if x in ["car"]:
             return 1
         else:
