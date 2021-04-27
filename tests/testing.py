@@ -89,7 +89,7 @@ class Test_bike(unittest.TestCase):
         test = Bike("RED", "BMX")
         testTwo = Bike("RED", "mountain")
         testThree = Bike("RED", "street")
-        if self.assertEqual(test.get_speed(), 25):
+        if self.assertEqual(test.get_speed(), 20):
             if self.assertEqual(testTwo.get_speed(), 8):
                 if self.assertEqual(testThree.get_speed(), 15):
                     return
